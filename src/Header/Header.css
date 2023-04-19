@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #eee;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3vw;
+}
+
+li {
+    margin: 0 3vw;
+    margin-top: 15px;
+}
+
+a {    
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.ej {
+    margin-left: 2vw;
+}
+
+.contactbtn {
+    background-color: #ebedf0;
+    padding: 15px 15px 15px 15px;
+    cursor: pointer;
+    margin-top: 0;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.contactref {
+    color: rgb(98, 98, 98);
+    text-align: center;
+}
+
+.contactbtn:hover {
+    background-color: #d6d8db;
+}
+
+a:hover {
+    border-bottom: 1px solid white;    
+    transition: 0.3s;
+}
+
+
+
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+    background: linear-gradient(to right,#2473f2, #2d3e8c, #1a2557);
+	color: var(--textColor);
+    width: 100vw;
+}
+
+nav a {
+	margin: 0 3rem;
+	color: var(--textColor);
+	text-decoration: none;
+    
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+nav {
+    margin-right: -60%;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+@media only screen and (max-width: 1440px) {
+    nav {
+        margin-right: -50%;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    nav {
+        margin-right: -30%;
+    }
+}
+@media only screen and (max-width: 768px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+        background: linear-gradient(to bottom,#2473f2, #2d3e8c, #1a2557);
+		transition: 1s;
+        z-index: 1;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}

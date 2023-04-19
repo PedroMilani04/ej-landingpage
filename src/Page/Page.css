@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pagecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right,#1c6dec, #1d295e);
+    height: 100vh;
+    color: white;
+
+}
+
+.hero {
+    width: 100vw;
+    height: 70vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 10rem 4rem;
+}
+
+.hero-text {
+    font-size: 4.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.hero-image {
+    width: 110vw;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+}
+
+span {
+    font-family: 'Rubik Pixels', cursive;
+}
+
+
+/* CSS */
+
+/* CSS */
+.button-74 {
+    margin-top: 5vh;
+    scale: 1.3;
+  background-color: #db694d;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #0a0600;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: 0.23s;
+}
+
+.button-74:hover {
+  background-color: #e5785d;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -9999999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #28282d;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+@media(max-width: 1024px) {
+    .hero-text {
+        font-size: 3.5rem;
+    }
+    .hero {
+        padding: 4rem 5rem 4rem;
+    }
+}

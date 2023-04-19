@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.what {
+    height: 70vh;
+    background-color: rgb(251, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    row-gap: 3.5vh;
+    padding: 10vw;
+
+}
+
+.what h1 {
+    color: #1d295e;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.what h2 {
+    color: #263578;
+}
