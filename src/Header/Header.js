@@ -17,9 +17,9 @@ function Header() {
 			<h3>LOGO</h3>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
+				<a href="/#">Propósito</a>
+				<a href="/#">Info</a>
+				<a href="/#">Métodos</a>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

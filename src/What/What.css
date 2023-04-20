@@ -27,3 +27,34 @@
 .what h2 {
     color: #263578;
 }
+
+@media(max-width: 768px) {
+    .what {
+        height: 80vh;
+        padding: 10vw 5vw;
+    }
+    .what h1 {
+        font-size: 2.2rem;
+    }
+    .what h2 {
+        font-size: 1.2rem;
+    }
+
+    .what p {
+        font-size: .8rem;
+    }
+}
+@media(max-width: 376px) {
+    .what {
+        height: 90vh;
+        padding: 10vw 5vw;
+    }
+    .what h1 {
+        font-size: 1.8rem;
+    }
+    .what h2 {
+        font-size: 1rem;
+    }
+
+   
+}
