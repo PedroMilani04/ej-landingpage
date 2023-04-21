@@ -34,6 +34,8 @@
     margin-right: 3vw;
     margin-left: -15vw;
     border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+
 }
 
 .unespimg1 {
@@ -41,6 +43,8 @@
     margin-left: -15vw;
     border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
     display: none;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+
 }
 
 .contentinfo {
@@ -56,7 +60,19 @@
     flex-direction: column;
     list-style: circle;
 }
-
+@keyframes profile_animate {
+    0% {
+      border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
+    }
+  
+    50% {
+      border-radius: 60% 40% 70% 40% / 40% 60% 50% 65%;
+    }
+  
+    100% {
+      border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
+    }
+  }
 @media(max-width: 1440px) {
     .unespimg {
         scale: 0.8;

@@ -27,7 +27,11 @@
 .what h2 {
     color: #263578;
 }
-
+@media(max-width: 1024px) {
+    .what {
+        scale: .85;
+    }
+}
 @media(max-width: 768px) {
     .what {
         height: 80vh;
