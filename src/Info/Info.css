@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,16 +9,21 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     height: 100vh;
     padding: 5vw;
     font-family: 'Montserrat', sans-serif;
 }
-
+.contentinfo ul li {
+    color: #67ecc8;
+    font-weight: 600;
+}
 .info h1 {
     color: #1d295e;
     font-weight: bold;
     font-size: 3rem;
+    font-weight: 600;
+
 }
 
 .info h2 {
@@ -28,6 +34,13 @@
     margin-right: 3vw;
     margin-left: -15vw;
     border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
+}
+
+.unespimg1 {
+    margin-right: 3vw;
+    margin-left: -15vw;
+    border-radius: 30% 70% 63% 37% / 30% 63% 37% 70% ;
+    display: none;
 }
 
 .contentinfo {
@@ -63,7 +76,7 @@
         margin-right: -15vw;
         margin-left: -30vw;
         margin-bottom: 5vh;
-        margin-top: -10vh;
+        margin-top: -0vh;
         scale: 0.7;
     }
     .contentinfo {
@@ -88,6 +101,7 @@
         flex-direction: column;
         align-items: center;
         padding: 0vw;
+        height: 150vh;
     }
     .unespimg {
         margin-right: -15vw;
@@ -97,8 +111,16 @@
         scale: 0.7;
         display: none;
     }
+    .unespimg1 {
+        margin-right: -25vw;
+        margin-left: -30vw;
+        margin-bottom: -20vh;
+        margin-top: -20vh;
+        scale: 0.45;
+        display: block;
+    }
     .contentinfo {
-        margin-left: 10vw;
+        margin-left: 15vw;
         margin-right: 10vw;
     }
     .info h1{
@@ -110,5 +132,6 @@
         font-size: .95rem;
     }
     .contentinfo ul li {
+        color: #4ae0b9;
     }
 }
