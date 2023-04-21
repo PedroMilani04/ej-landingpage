@@ -28,11 +28,20 @@
     color: #263578;
 }
 @media(max-width: 1024px) {
-    .what {
-        scale: .85;
-    }
+   .what h1, h2, p {
+    scale: 0.8;
+   }
+   .what .button-74 {
+    scale: .97;
+   }
 }
 @media(max-width: 768px) {
+    .what h1, h2, p {
+        scale: 1;
+       }
+       .what .button-74 {
+        scale: .97;
+       }
     .what {
         height: 80vh;
         padding: 10vw 5vw;

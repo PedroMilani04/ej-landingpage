@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +10,107 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7c30c3;
-    height: 60vh;
+    background: linear-gradient(to top right,#1c5cc4, #253475);
+    height: 100vh;
+}
+
+ .method-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    padding: 0vw;
+    font-family: 'Montserrat', sans-serif;
+}
+.method-content h3 {
+    color: #67ecc8;
+}
+.method-content h4{
+    color: #1d295e
+}
+.method-content h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.method-content h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 3.5vh;
+}
+.cards {
+    display: flex;
+    padding: 2vw;
+}
+
+.card {
+    margin-left: 2vw;
+    background-color: white;
+    padding:5vh;
+    border-radius: 10px;
+    width: 25vw;
+    height: 25vh;
+    text-align: center;
+}
+@media(max-width: 1025px) {
+    .card {
+        width: 28vw;
+        height: 30vh;
+    }
+}
+@media(max-width: 800px) {
+    .method {
+        height: 115vh;
+    }
+    .method-content {
+        margin-top: 5vh;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        margin-left: 0vw;
+        margin-bottom: 2vw;
+        height: 23vh;
+        width: 80vw;
+    }
+    .method-content h1 {
+        font-size: 2rem;
+    }
+    .method-content h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 426px) {
+    .method {
+        height: 145vh;
+    }
+    .method-content h1 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top:30vh;
+    }
+    .method-content h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+        .cards {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .card {
+            margin-left: 0vw;
+            margin-bottom: 4vw;
+            width: 80%;
+            height: 34vh;
+        }
 }
