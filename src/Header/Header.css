@@ -14,6 +14,7 @@
     padding: 0;
 }
 
+
 ul {
     display: flex;
     list-style: none;
@@ -25,7 +26,7 @@ li {
     margin-top: 15px;
 }
 
-a {    
+.headerej a {    
     color: white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
@@ -34,9 +35,7 @@ a {
     transition: 0.3s;
 }
 
-.ej {
-    margin-left: 2vw;
-}
+
 
 .contactbtn {
     background-color: #ebedf0;
@@ -107,15 +106,31 @@ nav {
 	display: flex;
 	align-items: center;
 }
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1800px) {
     nav {
         margin-right: -50%;
     }
+	.headerej a {    
+		color: white;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1rem;
+		font-weight: 700;
+		transition: 0.3s;
+	}
 }
 @media only screen and (max-width: 1024px) {
     nav {
         margin-right: -30%;
     }
+	.headerej a {    
+		color: white;
+		text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		font-size: .9rem;
+		font-weight: 700;
+		transition: 0.3s;
+	}
 }
 @media only screen and (max-width: 768px) {
 	header .nav-btn {

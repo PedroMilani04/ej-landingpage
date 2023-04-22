@@ -2,7 +2,6 @@ import {} from './Header.css';
 import React, {useState} from 'react';
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 function Header() {
   const navRef = useRef();
 
@@ -13,8 +12,8 @@ function Header() {
 	};
 
   return (
-    <header>
-			<h3>LOGO</h3>
+    <header className='headerej'>
+			<h1>EJCOMP</h1>
 			<nav ref={navRef}>
 				<a href="/#">Home</a>
 				<a href="/#">Propósito</a>

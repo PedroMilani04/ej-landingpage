@@ -28,7 +28,8 @@
     color: #67ecc8;
 }
 .method-content h4{
-    color: #1d295e
+    color: #1d295e;
+    margin-bottom: 10px;
 }
 .method-content h1 {
     color: white;
@@ -83,6 +84,7 @@
     }
     .method-content h1 {
         font-size: 2rem;
+        margin-top: 3.5vh;
     }
     .method-content h2 {
         font-size: 1.5rem;

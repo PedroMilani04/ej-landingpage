@@ -8,6 +8,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fbf9f9;
+    justify-content: center;
+    background-color: #f2f2f2;
     height: 60vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ejlogob {
+    margin-top: 4vh;
+    margin-bottom: -2vh;
+}
+
+.team h1 {
+    color: #1d295e;
+    font-weight: bold;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.team p {
+    width: 70%;
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 1.15rem;
+}
+
+@media(max-width: 1025px) {
+    .button-74 {
+        scale: .95;
+    }
+    .ejlogob {
+        scale: .9;
+    }
+}
+@media(max-width: 800px) {
+    .team h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .team p {
+        font-size: 1rem;
+    }
+}
+@media(max-width: 426px) {
+    .team {
+        height: 80vh;
+    }
+}
+@media(max-width: 376px) {
+    .ejlogob {
+        scale: .8;
+    }
 }

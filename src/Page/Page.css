@@ -1,33 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .pagecontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: linear-gradient(to right,#1c6dec, #1d295e);
-    height: 100vh;
-    color: white;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #1c6dec, #1d295e);
+  height: 100vh;
+  color: white;
+  width: 100vw;
 }
 
 .hero {
-    width: 100vw;
-    height: 70vh;
-    margin-top: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 10rem 4rem;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 10rem 4rem;
 }
 
 .hero-text {
-    font-size: 4.5rem;
-    font-family: 'Montserrat', sans-serif;
+  font-size: 4.5rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -36,18 +37,22 @@
   width: 110vw;
   height: 100%;
   object-fit: cover;
-  background-color: white;
   display: none;
 }
+
 .hero-image {
-    width: 110vw;
-    height: 100%;
-    object-fit: cover;
-    background-color: white;
+  width: 110vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ejbrancoimg {
+  scale: 1.2;
+  margin-left: 7vw;
 }
 
 span {
-    font-family: 'Rubik Pixels', cursive;
+  font-family: 'Rubik Pixels', cursive;
 }
 
 
@@ -55,8 +60,8 @@ span {
 
 /* CSS */
 .button-74 {
-    margin-top: 5vh;
-    scale: 1.3;
+  margin-top: 5vh;
+  scale: 1.3;
   background-color: #da3745;
   border: 2px solid #422800;
   border-radius: 30px;
@@ -84,20 +89,31 @@ span {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
+
+@media(max-width: 1441px) {
+  .ejbrancoimg {
+    scale: 1;
+    margin-left: 7vw;
+  }
+
+  .hero-text {
+    font-size: 4rem;
+  }
+}
+
 @media(max-width: 1024px) {
   .hero {
-      scale: .85;
+    scale: .75;
   }
-  .hero-image {
-    scale: 1.1;
+
+  .pagecontainer {
+    height: 110vh;
   }
+
 }
-@media (min-width: 768px) {
-  .button-74 {
-    min-width: 120px;
-    padding: 0 25px;
-  }
-}
+
+
+
 .button-86::after,
 .button-86::before {
   content: '';
@@ -145,61 +161,90 @@ span {
 }
 
 @media(max-width: 1024px) {
-    .hero-text {
-        font-size: 3.5rem;
-    }
-    .hero {
-        padding: 4rem 5rem 4rem;
-    }
+  .hero-text {
+    font-size: 3.5rem;
+  }
+
+  .hero {
+    padding: 4rem 5rem 4rem 1rem;
+  }
+  .ejbrancoimg {
+    scale: 1;
+    margin: -7vw;
+  }
+  
 }
 
 @media(max-width: 768px) {
-    .hero-image {
-      display: none;
-    }
-    .hero-image2 {
-      display: block;
-      width: 90%;
-      height: 40vh;
-      margin-top: 5vh;
-      margin-bottom: 2vh;
-    }
-    .hero-text {
-        font-size: 2.5rem;
-    }
-    .hero {
-        padding: 4rem 7rem 4rem;
-        
-    }
-    .button-74 {
-        margin-top: 2vh;
-        scale: 1;
-    }
+  .hero-image {
+    display: none;
+  }
+
+  .hero-image2 {
+    display: block;
+    width: 90%;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  .hero-text {
+    font-size: 2.5rem;
+  }
+
+  .hero {
+    padding: 4rem 7rem 4rem;
+    text-align: center;
+    margin-top:15vh;
+  }
+
+  .pagecontainer .button-74 {
+    margin-top: 34vh;
+    scale: 1.4;
+  }
+  .ejbrancoimg {
+    margin: 0;
+    margin-left: 6vw;
+  }
 }
 
 @media(max-width: 426px) {
-    .hero-image {
-      display: none;
-    }
-    .hero-image2 {
-      display: block;
-      width: 100%;
-      height: 40vh;
-      margin-top: 5vh;
-      margin-bottom: 2vh;
-    }
-    .hero-text {
-        font-size: 2rem;
-    }
-    .hero {
-        padding: 8rem 3rem 4rem;
-        
-    }
-    .button-74 {
-        margin-top: 2vh;
-        scale: 1;
-    }
-    .pagecontainer {
-        height: 120vh;
-    }
+  .hero-image {
+    display: none;
+  }
+
+  .hero-image2 {
+    display: block;
+    width: 100%;
+    height: 40vh;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  .hero-text {
+    font-size: 2rem;
+  }
+
+  .hero {
+    padding: 8rem 3rem 4rem;
+
+  }
+
+  .button-74 {
+    margin-top: 2vh;
+    scale: 1;
+  }
+
+  .pagecontainer {
+    height: 120vh;
+  }
+  .ejbrancoimg {
+    scale: .85;
+  }
+}
+
+@media(max-width: 321px) {
+  .hero {
+    scale: .6;
+  }
 }
