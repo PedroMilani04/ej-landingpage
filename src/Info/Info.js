@@ -26,13 +26,13 @@ function Info() {
         <h2 data-aos="fade-right" data-aos-duration="1200">
           Por quê depositar sua confiança?
         </h2>
-        <p>
+        <p data-aos="zoom-out">
           um dolote velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
           sint occaecat cupidatat non proident, sunt in culpa qui officia
           deserunt mollit anim id est laborum." "Lorem ipsum dolor sit amet,
           consectetur
         </p>
-        <p>
+        <p data-aos="zoom-out">
           um doloolore mollit anim id est laborum." "Lorem ipsum dolor sit amet,
           consectetur
         </p>
