@@ -1,7 +1,14 @@
 import {} from './Team.css';
 import ejlogo from '../img/ejlogo-black.png';
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Team() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div className="team">
       <h1>Ainda com dúvidas?</h1>
