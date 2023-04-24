@@ -9,7 +9,7 @@ function Info() {
   }, []);
 
   return (
-    <div className="info">
+    <div className="info" id="infopage">
       <img
         className="unespimg"
         src="https://s2.glbimg.com/G3oHthkpW6iBumdW0c62Ar7Im98=/0x0:620x465/984x0/smart/filters:strip_icc()/s.glbimg.com/jo/g1/f/original/2014/04/03/unesp.jpg"

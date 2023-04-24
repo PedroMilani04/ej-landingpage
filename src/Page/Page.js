@@ -7,12 +7,16 @@ import "aos/dist/aos.css";
 
 function Page() {
   return (
-    <div className="pagecontainer">
+    <div className="pagecontainer" id="homepage">
       <Header />
       <div className="pagebody">
         <div className="hero">
           <div className="hero-content">
-            <div className="hero-text" data-aos="fade-down" data-aos-duration="1200">
+            <div
+              className="hero-text"
+              data-aos="fade-down"
+              data-aos-duration="1200"
+            >
               Unlocks the <span>potential</span> of your business with our{" "}
               <span>services</span> and <span>solutions</span>.
             </div>

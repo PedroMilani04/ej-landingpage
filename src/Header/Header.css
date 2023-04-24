@@ -33,6 +33,7 @@ li {
     font-size: 1.2rem;
     font-weight: 700;
     transition: 0.3s;
+	
 }
 
 
@@ -105,6 +106,9 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+}
+
+header h1 {
 }
 @media only screen and (max-width: 1800px) {
     nav {

@@ -9,7 +9,7 @@ function What() {
   }, []);
 
   return (
-    <div className="what">
+    <div className="what" id="proppage">
       <h1 className="what__title" data-aos="fade-down">
         Não deixe seu negócio ficar para trás
       </h1>
