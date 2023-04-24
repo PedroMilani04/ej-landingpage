@@ -22,20 +22,19 @@ function Method() {
               data-aos="flip-left"
               data-aos-duration="1150"
             >
-              <h3>1. Aprenda</h3>
-              <h4>Lorem ipsuim do lipsuim doloar ameoroem ipsum</h4>
-              <p>Lorem ipsuim doloar amet amt dolror loroem ipsum</p>
+              <h3>1. Estruturação</h3>
+              <h4>Como quer seu projeto?</h4>
+              <p>Na primeira parte do processo, levantamos a estrutura e requisitos do projeto em questão. Após isso, a fase de montagem e criação do projeto é iniciada.</p>
             </section>
             <section
               className="card"
               data-aos="flip-left"
               data-aos-duration="1150"
             >
-              <h3>1. Aprenda</h3>
-              <h4>Lorem ipsuim do loroem ipsum</h4>
+              <h3>2. Montagem</h3>
+              <h4>Mão na massa!</h4>
               <p>
-                Lorem ipsuim doloar ipsuim doloar ameipsuim doloar ameamet amt
-                dolror loroem ipsum
+                Durante essa fase do processo, seu projeto é montado e devidamente testado, sempre informado do andamento e podendo requisitar novos serviços e funcionalidades.
               </p>
             </section>
             <section
@@ -43,16 +42,15 @@ function Method() {
               data-aos="flip-left"
               data-aos-duration="1150"
             >
-              <h3>1. Aprenda</h3>
-              <h4>Lorem ipsuim do loroem ipsum</h4>
+              <h3>3. Entrega</h3>
+              <h4>A finalização.</h4>
               <p>
-                Lorem ipsuim doloar amipsuipsuim doloar ameipsuim doloar ameim
-                doloar ameet amt dolror loroem ipsum
+                Por fim, seu projeto é entregue totalmente funcional, testado e 100% pronto para uso, contando com suporte da EJCOMP para quaisquer eventualidades. <br></br>Faça bom proveito!
               </p>
             </section>
           </div>
           <div>
-            <button className="button-74">Contact us</button>
+            <button className="button-74">Contato</button>
           </div>
         </div>
       </div>

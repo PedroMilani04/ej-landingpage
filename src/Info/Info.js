@@ -27,19 +27,19 @@ function Info() {
           Por quê depositar sua confiança?
         </h2>
         <p data-aos="zoom-out">
-          um dolote velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-          sint occaecat cupidatat non proident, sunt in culpa qui officia
-          deserunt mollit anim id est laborum." "Lorem ipsum dolor sit amet,
-          consectetur
+
+
+          
         </p>
         <p data-aos="zoom-out">
-          um doloolore mollit anim id est laborum." "Lorem ipsum dolor sit amet,
-          consectetur
+          A FCT-UNESP é uma das melhores faculdades de Ciências da Computação do Brasil, com uma equipe de professores altamente qualificados e com experiência em pesquisa e desenvolvimento de software. 
+
         </p>
+        <p>Nesse âmbito, alunos do curso organizam a EJCOMP, uma empresa sem fins lucrativos que presta serviços de desenvolvimento de software para empresas e organizações da região cobrando o preço abaixo do padrão do mercado, com o objetivo de proporcionar aos alunos uma experiência prática de mercado, além de contribuir para o desenvolvimento econômico da região.</p>
         <ul data-aos="fade-right">
-          <li>Best prices in the region</li>
-          <li>Best prices in the region</li>
-          <li>Best prices in the region</li>
+          <li>Melhores preços da região</li>
+          <li>Equipe moderna e atualizada</li>
+          <li>+10 anos de história</li>
         </ul>
       </div>
     </div>

@@ -22,7 +22,7 @@ function Team() {
         Nosso trabalho é mudar o seu trabalho, com tecnologia e segurança.
       </p>
       <img className="ejlogob" src={ejlogo} alt="ejlogo" />
-      <button className="button-74">Contact us</button>
+      <button className="button-74">Contacte-nos</button>
     </div>
   );
 }

@@ -158,7 +158,7 @@
         flex-direction: column;
         align-items: center;
         padding: 3vw;
-        height: 120vh;
+        height: 155vh;
     }
     .unespimg1 {
         height: 400px;
@@ -173,6 +173,10 @@
 }
 
 @media(max-width: 376px) {
+    .info {
+        
+        height: 160vh;
+    }
     .unespimg1 {
         height: 400px;
         width: 450px;
@@ -185,6 +189,6 @@
         width: 400px;
     }
     .info {
-        height: 130vh;
+        height: 170vh;
     }
 }

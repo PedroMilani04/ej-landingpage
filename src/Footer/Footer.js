@@ -22,9 +22,9 @@ const Footer = () => {
           </div>
           <div className="col-md-4 col-sm-12 col-xs-12">
             <h3>Contato</h3>
-            <p>Rua Nome da Rua, 123 - Bairro, Cidade - Estado</p>
-            <p>Email: contato@exemplo.com</p>
-            <p>Telefone: (11) 1234-5678</p>
+            <p>R. Roberto Símonsen, 305 - Jardim das Rosas, Pres. Prudente - SP</p>
+            <p>Email: computacaojr@gmail.com</p>
+            <p>Telefone: (18) 3229-5466</p>
             <ul className="social-icons">
               <li><a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} /></a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a></li>

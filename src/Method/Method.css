@@ -116,3 +116,14 @@
             height: 34vh;
         }
 }
+@media(max-width: 376px) {
+     .method {
+        height: 165vh;
+     }
+     .card {
+        height: 40vh;
+     }
+     .method-content {
+        margin-top: 20vh;
+     }
+}

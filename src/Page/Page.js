@@ -17,14 +17,14 @@ function Page() {
               data-aos="fade-down"
               data-aos-duration="1200"
             >
-              Unlocks the <span>potential</span> of your business with our{" "}
-              <span>services</span> and <span>solutions</span>.
+              Descubra o <span>potencial</span> do seu negócio com os{" "}
+              <span>serviços</span> da <span>EJCOMP</span>.
             </div>
 
             <div className="hero-image2" data-aos="zoom-in">
               <img className="ejbrancoimg" src={EJBRANCO} alt="hero" />
             </div>
-            <button className="button-74">Contact us</button>
+            <button className="button-74">Contato</button>
           </div>
           <div className="hero-image" data-aos="zoom-in">
             <img className="ejbrancoimg" src={EJBRANCO} alt="hero" />
